@@ -6,4 +6,4 @@ This is an "Ecommerce Site" where you can
 <h4> Add new item,</h4>
 <h4> Also delete an item.</h4>
 
-<a href="https://hungry-leakey-d0c103.netlify.app/">Live site</a>
+<a href="https://606ed552b65293ae1154e17d--tshirt-zone.netlify.app/">Live site</a>
