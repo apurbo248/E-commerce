@@ -11,7 +11,7 @@ const CheckOut = () => {
     const [loggedInUser,setLoggedInUser] = useContext(userContext);
 
     useEffect(()=>{
-        fetch(`http://localhost:7000/getSingleItem/${_id}`)
+        fetch(`https://calm-sierra-74772.herokuapp.com/getSingleItem/${_id}`)
         .then(res=>res.json())
         .then(data=>{
             setChooseProduct(data[0]);
@@ -32,7 +32,7 @@ const CheckOut = () => {
       Price:choosedProduct.price,
       date:new Date().toLocaleString() + ''
       }
-      fetch(`http://localhost:7000/SubmitOrder`,{
+      fetch(`https://calm-sierra-74772.herokuapp.com/SubmitOrder`,{
         method: 'POST',
         headers:{'Content-Type':'application/json'},
         body: JSON.stringify(orderedProduct)

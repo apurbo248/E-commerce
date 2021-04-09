@@ -14,6 +14,7 @@ export const googleSIgnInHandler= ()=> {
     .auth()
     .signInWithPopup(googleProvider)
     .then(res =>{
+      console.log(res)
         let {displayName, email} = res.user
         const signedInUser = {
             isSignedIn : true,

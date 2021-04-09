@@ -17,7 +17,7 @@ const Header = () => {
                 </Nav>
                 <Form inline>
                 {
-                loggedInUser.isSignedIn ? 
+                loggedInUser?.isSignedIn ? 
                 <strong style={{color:'green',fontSize:'13px'}}>{loggedInUser.name}</strong>
               : <Link className="btn btn-success " to="/login"> Log in</Link>
             }

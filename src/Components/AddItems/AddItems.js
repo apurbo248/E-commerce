@@ -12,7 +12,7 @@ const AddItems = () => {
             Url:imageUrl
         };
         console.log(data)
-        const url = `http://localhost:7000/addItem`;
+        const url = `https://calm-sierra-74772.herokuapp.com/addItem`;
         fetch(url,{
             method: 'POST',
             headers:{'Content-Type':'application/json'},

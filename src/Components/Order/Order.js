@@ -6,7 +6,7 @@ const Order = () => {
    
     const[checkOrder,setCheckOrder] = useState([]);
     useEffect(()=>{
-    fetch(`http://localhost:7000/getOrder`)
+    fetch(`https://calm-sierra-74772.herokuapp.com/getOrder`)
     .then(res => res.json())
     .then(data => {
         console.log(data)

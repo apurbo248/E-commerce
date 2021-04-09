@@ -1,9 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCmna9HrCDwC5tG0LazMs0XelULBDxBk7g",
-    authDomain: "login-page-5012f.firebaseapp.com",
-    projectId: "login-page-5012f",
-    storageBucket: "login-page-5012f.appspot.com",
-    messagingSenderId: "684970127916",
-    appId: "1:684970127916:web:1676941b63ec6f9282d789"
+  apiKey: "AIzaSyC75ENUFLhL7SccjoEr_HilmcBcgg757Do",
+  authDomain: "tshirtzone248.firebaseapp.com",
+  projectId: "tshirtzone248",
+  storageBucket: "tshirtzone248.appspot.com",
+  messagingSenderId: "162432197040",
+  appId: "1:162432197040:web:9a08d719b154c2d4203675"
   };
   export default firebaseConfig;

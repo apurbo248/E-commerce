@@ -5,14 +5,14 @@ const ManageProduct = () => {
     const [items, setItems] = useState([])
 
     useEffect(()=>{
-        fetch('http://localhost:7000/items')
+        fetch('https://calm-sierra-74772.herokuapp.com/items')
         .then(res => res.json())
         .then(data=>setItems(data));
        
     },[items]);
 
     const deleteProduct=(id)=>{
-      fetch(`http://localhost:7000/items/${id}`,{
+      fetch(`https://calm-sierra-74772.herokuapp.com/items/${id}`,{
         method: 'DELETE'
       })
       .then(res=> res.text())
