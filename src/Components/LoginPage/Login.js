@@ -1,4 +1,4 @@
-import React, { useState, useContext, useRef } from "react";
+import React, { useState, useContext } from "react";
 import { Button, Container} from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import "./Login.css";
@@ -7,8 +7,8 @@ import {
   googleSIgnInHandler,
   initiateLoginFramework,
   facebookSignInHandler
- 
 } from "./LogManager";
+
 import { useHistory, useLocation } from "react-router";
 import { userContext } from "../../App";
 
@@ -22,7 +22,6 @@ const Login = () => {
     photo: ""
   });
 
- 
   const [loogedInUser, setLoggedInUser] = useContext(userContext);
 
   const history = useHistory();

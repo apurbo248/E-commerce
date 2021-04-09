@@ -1,7 +1,6 @@
 import firebase from 'firebase'
 import firebaseConfig from './FirebaseConfig';
-
-
+ 
 export  const initiateLoginFramework = () => {
   if (firebase.apps.length === 0) {
     firebase.initializeApp(firebaseConfig);
